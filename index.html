@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Alex Tsai</title>
+  <meta name="description" content="Alex Tsai Portfolio">
+  <meta name="author" content="Alex Tsai">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+<body>
+  <script>
+  var title = ["Alex Tsai", "🔥lex Tsai", "A🔥ex Tsai", "Al🔥x Tsai","Ale🔥 Tsai","Alex🔥Tsai","Alex 🔥sai","Alex T🔥ai", "Alex Ts🔥i", "Alex Tsa🔥"];
+  var count = 0;
+  setInterval( checkPageFocus, 200 );
+  function checkPageFocus() {
+
+    if ( document.hasFocus() ) {
+      document.title = "Alex Tsai";
+      count = 0;
+    } else {
+      count++;
+      if(count == 10)
+      {
+        count = 0;
+      }
+      document.title = title[count];
+    }
+  }
+
+  </script>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="container">
+  	<div id = "intro" >
+    The portfolio of
+    <h1>Alex Tsai </h1>
+  	</div> <!-- intro -->
+  	<div id="work">
+  		<div class="project">
+      <div class="icon" >
+        <img src="images/groupon.png">
+      </div>
+      <div class="text">
+        <h2>Groupon</h2>
+        <p>I had the privilege of working with Groupon’s Consumer Experience team in Palo Alto this past summer. As a product design intern, I got a chance to work on a product that’s used by 48.1 million users all over the world. My projects included optimizing the mobile purchase flow for Getaway Deals, redesigning and prototyping the login/sign up process, as well as bringing more personality to the product.</p>
+        <a class="link" href="groupon.html">See More</a>
+      </div>
+  		</div>
+  		<div class="project" id="even">
+      <div class="icon" >
+        <img src="images/framer.png">
+      </div>
+      <div class="text">
+        <h2>Framer</h2>
+        <p>As designers what we imagine and create is shaped by the tools we use. <a target="_blank" href="http://framerjs.com/">Framer.js</a> is a tool that shapes the way I conceive of how people and technology can interact. It not only provides a quick way to test new interactions, but as a javascript library it can also utilize a phone’s accelerometer, connect to backend services like <a target="blank" href="https://www.parse.com/">Parse</a>, and more. The following contains an experiment with recursion, a module I made for Framer to record quantitative usability test data using Parse, and additional thoughts on prototyping.</p>
+        <a class="link" href="framer.html">See More</a>
+      </div>
+  		</div>
+  		<div class="project">
+      <div class="icon" ><img src="images/randy.png"></div>
+      <div class="text">
+        <h2>Randy</h2>
+        <p>I think red pandas are one of God’s greatest creations. I also happen to be fond of animation and motion design. The logical next step was to make an animated video about Red Pandas. I had a lot of fun with this project. Whether it was researching red pandas and watching <a target="_blank" href="https://www.pinterest.com/search/pins/?rs=ac&len=2&q=red+panda+gif&term_meta%5B%5D=red%7Cautocomplete%7C0&term_meta%5B%5D=panda%7Cautocomplete%7C0&term_meta%5B%5D=gif%7Cautocomplete%7C0">red panda gifs</a> or designing the visual and animations, I really enjoyed the process. This project was also really beneficial in what it taught me about giving and receiving feedback.</p>
+        <a class="link" href="randy.html">See More</a>
+      </div>
+  		</div>
+  	</div> <!-- projects -->
+  	<div id="about">
+  		<ul>
+        <li style="font-weight:700;">More of me</li>
+        <!-- <li><a target="_blank" href="resume.pdf">Resume</a></li> -->
+        <li><a target="_blank" href="mailto:alextsai@andrew.cmu.edu">Email</a></li>
+  		  <li><a target="_blank" href="https://dribbble.com/alex-tsai">Dribbble</a></li>
+        <li><a target="_blank" href="https://www.goodreads.com/alextsai">Goodreads</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/alextsai1">Linkedin</a></li>
+        <li><a target="_blank" href="https://www.pinterest.com/al3xtsai/">Pinterest</a></li>
+        <li><a target="_blank" href="https://vimeo.com/alextsai">Vimeo</a></li>
+  		</ul>
+  	</div>
+  </div> <!-- container -->
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

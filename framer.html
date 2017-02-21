@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Framer | Alex Tsai</title>
+  <meta name="description" content="Alex Tsai Portfolio">
+  <meta name="author" content="Alex Tsai">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <header>
+   <div>
+     <a href="index.html">Alex Tsai</a>
+     <ul>
+       <li><a href="groupon.html">Groupon</a></li>
+       <li id='current'>Framer</li>
+       <li><a href="randy.html">Randy</a></li>
+     </ul>
+   </div>
+ </header>
+ <div id="container" class="pages">
+  <div class="section">
+    <div class="content">
+      <img id="start" src="images/framer.png">
+      <a href="">Framer.js</a> is a flexible prototyping tool made by designers for designers. It requires some coding knowledge, however, as a code-based tool it allows for interesting prototypes that would not be possible otherwise. Designing with code was definitely a different type of thinking. For example, it made me think more about the logic behind interactions, which was not something I thought about as much when designing on Sketch or Illustrator. Over the summer, I played around with Framer and the following are the products of it.
+    </div>
+  </div>
+  <div class="section">
+    <div class="comment">
+      Recursively creating layers. Give it a click!
+    </div>
+    <div class="content">
+      <iframe src="http://share.framerjs.com/kxee3drgdtjr/" style="border:0;width:100%;height:300px;"></iframe>
+    </div>
+    <div class="section">
+      <div class="comment">
+        Quora users explain recursion better <a target="_blank" href="https://www.quora.com/How-should-I-explain-recursion-to-a-4-year-old">here</a>.
+      </div>
+      <div class="content">
+        Recursion is a principle in computer science in which a function calls on itself. To see what Framer was capable of, I wrote a function that on a click would split a circle into smaller circles that would then call the same function on the said smaller circles. To give it some polish, I played around with the colors and gave it a little bounce with the animation.
+      </div>
+    </div>
+    <div class="section">
+      <div class="content">
+        <img src="images/framer/abby.png">
+      </div>
+    </div>
+    <div class="section">
+      <div class="content">
+        A/BBY, is a module I wrote for Framer to record data from quantitative usability testing with Framer. It uses <a target="_blank" href="https://www.parse.com/">Parse</a> to store the data which can then be filtered through and analyzed. The idea is to leverage prototypes that teams would be creating anyway and enabling them to test it at scale. The four data points it records are:
+        <ol>
+          <li><span>Email</span> for you to identify a user (this can be replaced by just a generated ID if contact information is unnecessary</li>
+          <li><span>Errors</span>, or the interactions users make that are incorrect.</li>
+          <li><span>Success</span>, a true/false value to see whether they successfully completed the task.</li>
+          <li><span>Time</span> it takes for the user to complete a predetermined task if they did complete it.</li>
+        </ol>
+        You can find the module on Github <a target="_blank" href="https://github.com/alex-tsai/abby">here</a>. It was difficult for me to balance ease of use and flexibility in customization with the module. I did not want the prototyper to have to change their workflow to incorporate my module, but different tests may need different metrics so it still had to maintain flexibility.
+      </div>
+    </div>
+    <div class="section">
+      <div class="comment">
+        3D cards prototype <a target="_blank" href="http://share.framerjs.com/44eak02l1s0g/">here</a>.
+      </div>
+      <div class="content">
+        <iframe src="http://share.framerjs.com/44eak02l1s0g/" style="border:0;width:100%;height:300px;"></iframe>
+      </div>
+    </div>
+    <div class="section">
+      <div class="comment">As a side note, Framer gave me a lot more confidence coding as a designer and curious about what else I could design with code.</div>
+      <div class="content">
+        The quick shall inherit the earth, and the successful prototyper is the one that can fail faster. With Framer, that means validating an interaction or concept with the simplest prototype possible. The Framer website displays many beautiful prototypes, and while prototypes like that have a role in the design and development process, there is also a need for quick and dirty prototypes. Embracing those quick and dirty prototype allowed me to iterate and test more experimental ideas than I would have if I shot for the polished looking prototype from the beginning.
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="content">
+      <div id="previous">&#8592; <a href="groupon.html">Groupon</a></div>
+      <div id="next"><a href="randy.html">Randy</a> &#8594;</div>
+    </div>
+  </div>
+</div> <!-- container -->
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
